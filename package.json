@@ -1,0 +1,23 @@
+{
+  "name": "thunder-util",
+  "version": "1.0.2",
+  "description": "a light-weight and frequently-used javascript util for rapid development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljy1017010/thunder-util.git"
+  },
+  "keywords": [
+    "javascript",
+    "util"
+  ],
+  "author": "ljy1017010",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ljy1017010/thunder-util/issues"
+  },
+  "homepage": "https://github.com/ljy1017010/thunder-util#readme"
+}
