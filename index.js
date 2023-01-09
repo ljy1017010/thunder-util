@@ -7,17 +7,9 @@
  */
 
 export function formatThousandSeparator(integer) {
-  const width = 1000
-  const results = []
-  let currItem = integer
+  const reg = /(\d)(?=(?:\d{3})+$)/g
 
-  while (currItem > 0) {
-    results.push(currItem % width)
-
-    currItem = parseInt((currItem / width).toString())
-  }
-
-  return results.reverse().join(',')
+  return integer.toString().replace(reg, '$1,')
 }
 
 /**
