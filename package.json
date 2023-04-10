@@ -1,8 +1,9 @@
 {
   "name": "thunder-util",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a light-weight and frequently-used javascript util for rapid development",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
