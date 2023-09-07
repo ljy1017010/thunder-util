@@ -18,7 +18,7 @@ npm i thunder-util
 import {formatAllThousandSeparator, throttle} from 'thunder-util'
 
 const num = 100010.02
-console.log(formatAllThousandSeparator(num)) // 100,010.02
+formatAllThousandSeparator(num) // 100,010.02
 
 // task is a function
 throttle(task, 100)
