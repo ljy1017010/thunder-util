@@ -1,6 +1,6 @@
 {
   "name": "thunder-util",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a light-weight and frequently-used javascript util for rapid development",
   "main": "index.js",
   "type": "module",
