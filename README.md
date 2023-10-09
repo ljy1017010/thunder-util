@@ -1,3 +1,5 @@
+English | [简体中文](./docs/README.zh.md)
+
 # thunder-util
 
 A javascript library for rapid development, including password and email address verification, decimal formatting of numbers, and more

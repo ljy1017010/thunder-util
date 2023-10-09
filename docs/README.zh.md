@@ -1,3 +1,5 @@
+简体中文 | [English](../README.md)
+
 # thunder-util
 
 用于快速开发的 javascript 工具库，包括：对数字进行千分符格式化、节流函数、密码和邮箱格式的有效性验证等功能
