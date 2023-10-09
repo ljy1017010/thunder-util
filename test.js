@@ -1,4 +1,4 @@
-import { formatAllThousandSeparator } from './index.js'
+import { formatAllThousandSeparator, validateEmail } from './index.js'
 
 const num1 = 123456789.2333
 console.log(formatAllThousandSeparator(num1))
@@ -8,3 +8,5 @@ console.log(formatAllThousandSeparator(num2))
 
 const num3 = 100010.02
 console.log(formatAllThousandSeparator(num3))
+
+console.log(validateEmail('87@163.com'))

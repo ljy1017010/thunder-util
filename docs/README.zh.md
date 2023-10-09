@@ -1,14 +1,14 @@
 # thunder-util
 
-A javascript library for rapid development, including password and email address verification, decimal formatting of numbers, and more
+用于快速开发的 javascript 工具库，包括：对数字进行千分符格式化、节流函数、密码和邮箱格式的有效性验证等功能
 
-## Installation
+## 安装
 
 ```
 npm i thunder-util
 ```
 
-## Examples
+## 示例
 
 - formatAllThousandSeparator(number)
 
@@ -42,10 +42,10 @@ const isValid = validatePwd(password) // => true or false
 - validateChinaPhone(phoneNum)
 
 ```
-// Verify that the Chinese mobile phone number format
+// 用于验证中国大陆的电话号码格式是否正确
 const isValid = validateChinaPhone(phoneNum) // => true or false
 ```
 
-## Compatibility
+## 兼容性
 
-Writen by pure Javascript, so it can work well in all modern browser and Node.js >=8.
+用原生 Javascript 编写, 因此可以在所有现代浏览器和 Node.js >=8 中使用。
