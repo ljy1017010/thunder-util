@@ -51,7 +51,7 @@ const isValid = validateChinaPhone(phoneNum) // => true or false
 - downloadFile(file, fileName)
 
 ```
-// 在浏览器中下载文件，只能在浏览器中使用.
+// Can only be used in browser, the first parameter is File or Blob type
 downloadFile(file, fileName)
 ```
 
