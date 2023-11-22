@@ -48,6 +48,13 @@ const isValid = validatePwd(password) // => true or false
 const isValid = validateChinaPhone(phoneNum) // => true or false
 ```
 
+- downloadFile(file, fileName)
+
+```
+// download file in browser, can only be used in browser.
+downloadFile(file, fileName)
+```
+
 ## 兼容性
 
 用原生 Javascript 编写, 因此可以在所有现代浏览器和 Node.js >=8 中使用。

@@ -78,4 +78,20 @@ const validateChinaPhone = phoneNumber => {
   return phoneReg.test(phoneNumber)
 }
 
-export { formatAllThousandSeparator, throttle, validateEmail, validatePwd, validateChinaPhone }
+/**
+ * download file in browser
+ * @param {object} file
+ * @returns {string} fileName
+ */
+const downloadFile = (file, fileName) => {
+  const a = document.createElement('a')
+  // a.target = '_blank'
+  a.download = fileName
+  a.href = URL.createObjectURL(file)
+  a.click()
+  // clear
+  URL.revokeObjectURL(a.href)
+  a.remove()
+}
+
+export { formatAllThousandSeparator, throttle, validateEmail, validatePwd, validateChinaPhone, downloadFile }
