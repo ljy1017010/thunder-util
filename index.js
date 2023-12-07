@@ -87,10 +87,10 @@ const downloadFile = (file, fileName) => {
   const a = document.createElement('a')
   // a.target = '_blank'
   a.download = fileName
-  a.href = URL.createObjectURL(file)
+  a.href = window.URL.createObjectURL(file)
   a.click()
   // clear
-  URL.revokeObjectURL(a.href)
+  window.URL.revokeObjectURL(a.href)
   a.remove()
 }
 
